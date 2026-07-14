@@ -1,6 +1,6 @@
 @use 'variables' as *
 .banner-principal-decorativo
-  &-1
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 68%
@@ -12,8 +12,12 @@
     top: 30%
     right: 10%
     width: 20%
-
-
+  &-1
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 75%
+    right: 20%
+    width: 20%
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -25,16 +29,16 @@
   flex: 0 0 auto !important
   width: 58.33333333% !important
 .banner-principal__img 
-  padding-bottom: 0 !important;
+  padding-bottom: 0 !important
 .banner-principal__row .banner-principal__img 
-    width: 33%;
+    width: 33%
     
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $white !important  
+// .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+//   color: $white !important  
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
-  color: $white !important
+  color: $black !important
 .banner-interno__titulo h1, .banner-interno__titulo h2, 
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
@@ -45,8 +49,97 @@ figcaption
     font-weight: normal !important
 
 .banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+    color: $color-acento-botones !important
 
+.banner-principal .tarjeta
+  background-position: left 50% !important
+.banner-principal__row .banner-principal__img 
+  width: 489.5px !important
+.banner-principal
+  .banner-principal__row
+    transform: translateY(30px)
+.banner-principal__row
+  .banner-principal__info
+    max-width: 550px
+
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: 100% 100% !important
+    background-position: center
+    min-height: 520px
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+//- Modulo cajones
+//- Modulo tarjetas
+.tarjeta--bg01
+  background-image: url("../assets/curso/temas/bg/bg01.png")
+  background-size: cover
+  background-repeat: no-repeat
+
+//- Modulo slyders
+.tarjeta--slyder
+  height: 100%
+  background-color: white
+  // box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  text-align: center
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem
+.slyder-f__btn i
+  color: #7EBDFF
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+.slyder__btn
+  background-color: #7EBDFF
+  color: #fff
+// .slyder-b__btn--sigt, .slyder-a__btn--atrs
+//   background-color: #7EBDFF
+//   color: #FFFF
+//   border: none
+//   opacity: 100
+//   background-image: url(../assets/curso/chevron-right2.png)
+// .slyder-a__btn--sigt, .slyder-a__btn--atrs 
+//   background-color: #7EBDFF
+//   color: #FFFF
+//   border: none
+//   opacity: 100
+//   background-image: url(../assets/curso/chevron-right2.png)
+@media (max-width: 576px)
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt 
+    width: 25px
+    height: 25px
+.slyder-a__bullets__item
+  background-color: #7EBDFF
+  border: none
+.slyder-a__bullets__item--active
+  background-color: #1E535A
+  border: none
+
+// Modulo versión escritorio/movil para figuras
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
 
 /**************************************************************/
 /***CUSTOM STYLES***/
@@ -64,13 +157,6 @@ figcaption
 .bg-color
   &-1
     background-color: $color-primario
-
-
-
-
-
-
-
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -86,21 +172,11 @@ figcaption
     margin-bottom: 2em  !important  
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
-
-  
- 
-  
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
-
-  
-
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
-
-  
- 

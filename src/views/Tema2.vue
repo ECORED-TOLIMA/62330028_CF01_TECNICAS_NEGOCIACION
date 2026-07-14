@@ -5,7 +5,22 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Fundamentos del mercadeo
+    separador
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 2.1 Definición de mercadeo
+    separador
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 2.2 Tipos de mercado
+    separador
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 2.3 Segmentación del mercado
+    separador
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 2.4 El cliente actual
+    separador
+    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 2.5 Proceso de venta
 
 </template>
 
