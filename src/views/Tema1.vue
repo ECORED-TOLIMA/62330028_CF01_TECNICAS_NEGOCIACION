@@ -73,7 +73,7 @@
           .tarjeta.position-relative.p-4.pt-5(style="background-color: #FFE2C3;")
             div(style="position: absolute; top: 0; left: 50%; transform: translate(-50%, -50%); width: 80px; height: 80px;")
               img(src='@/assets/curso/temas/t1/img10.svg', alt='Imagen decorativa')
-            h4.text-regular.text-center.mb-0.pt-3 La clave no es evitar el conflicto, sino gestionarlo para mejorar el funcionamiento de la organización y fomentar el crecimiento.
+            p.text-regular.text-center.mb-0.pt-3 La clave no es evitar el conflicto, sino gestionarlo para mejorar el funcionamiento de la organización y fomentar el crecimiento.
       p(data-aos="fade-down") En las organizaciones hay diferentes factores que pueden originar y desarrollar el conflicto. Estos factores son el nivel de interdependencia, el nivel de tensión en el conflicto, así como el tipo de conflicto. A continuación, la explicación de cada uno:
       p.mb-4(data-aos="fade-down") El nivel de interdependencia se refiere a la situación en la que las acciones de una persona influyen en los resultados de otra, y viceversa. Existen dos tipos de interdependencia:
       .row.justify-content-center.mb-4(data-aos="flip-up")
@@ -234,7 +234,7 @@
           .tarjeta.position-relative.p-4.pt-5(style="background-color: #FFE2C3;")
             div(style="position: absolute; top: 0; left: 50%; transform: translate(-50%, -50%); width: 80px; height: 80px;")
               img(src='@/assets/curso/temas/t1/img10.svg', alt='Imagen decorativa')
-            h4.text-regular.text-center.mb-0.pt-3 Los estilos de negociación mencionados anteriormente no solo son útiles en el ámbito empresarial, sino que también tienen aplicación en las relaciones sociales cotidianas. La habilidad de adaptar el estilo a la situación específica es clave para lograr acuerdos exitosos en diferentes contextos.
+            p.text-regular.text-center.mb-0.pt-3 Los estilos de negociación mencionados anteriormente no solo son útiles en el ámbito empresarial, sino que también tienen aplicación en las relaciones sociales cotidianas. La habilidad de adaptar el estilo a la situación específica es clave para lograr acuerdos exitosos en diferentes contextos.
       separador
       #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 1.5 Fases de la negociación

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <g id="Grupo_1182004" data-name="Grupo 1182004" transform="translate(-72.746 -7992)">
+    <g id="Elipse_13628" data-name="Elipse 13628" transform="translate(72.746 7992)" fill="#ecf0f1" stroke="#ffa038" stroke-width="6">
+      <circle cx="64" cy="64" r="64" stroke="none"/>
+      <circle cx="64" cy="64" r="61" fill="none"/>
+    </g>
+    <g id="Page-1" transform="translate(106.711 8026)">
+      <g id="_018---Government-Bond" data-name="018---Government-Bond">
+        <path id="Path" d="M59,8V36a7,7,0,0,0-7,7H8a7,7,0,0,0-7-7V8A7,7,0,0,0,8,1H52A7,7,0,0,0,59,8Z" fill="#60a917" fill-rule="evenodd"/>
+        <path id="Rectangle" d="M56,8h3V36H56Z" fill="#549414" fill-rule="evenodd"/>
+        <path id="Path-2" data-name="Path" d="M8,43H2a1,1,0,0,1-1-1V36A7,7,0,0,1,8,43Z" fill="#a4c400" fill-rule="evenodd"/>
+        <path id="Path-3" data-name="Path" d="M8,1A7,7,0,0,1,1,8V2A1,1,0,0,1,2,1Z" fill="#a4c400" fill-rule="evenodd"/>
+        <path id="Path-4" data-name="Path" d="M59,2V8a7,7,0,0,1-7-7h6A1,1,0,0,1,59,2Z" fill="#a4c400" fill-rule="evenodd"/>
+        <path id="Path-5" data-name="Path" d="M58,1H55a1,1,0,0,1,1,1V7.319A6.971,6.971,0,0,0,59,8V2A1,1,0,0,0,58,1Z" fill="#90ac00" fill-rule="evenodd"/>
+        <path id="Path-6" data-name="Path" d="M59,36v6a1,1,0,0,1-1,1H52A7,7,0,0,1,59,36Z" fill="#a4c400" fill-rule="evenodd"/>
+        <path id="Path-7" data-name="Path" d="M56,36.681V42a1,1,0,0,1-1,1h3a1,1,0,0,0,1-1V36A6.971,6.971,0,0,0,56,36.681Z" fill="#90ac00" fill-rule="evenodd"/>
+        <circle id="Oval" cx="9" cy="9" r="9" transform="translate(21 5)" fill="#ffdc00"/>
+        <path id="Path-8" data-name="Path" d="M33,28H27l.84-4.2a1,1,0,0,1,.98-.8h2.36a1,1,0,0,1,.98.8Z" fill="sienna" fill-rule="evenodd"/>
+        <path id="Path-9" data-name="Path" d="M35,30v2H25V30a2.006,2.006,0,0,1,2-2h6A2.006,2.006,0,0,1,35,30Z" fill="#9e9e9e" fill-rule="evenodd"/>
+        <path id="Path-10" data-name="Path" d="M33,28H30a2.006,2.006,0,0,1,2,2v2h3V30A2.006,2.006,0,0,0,33,28Z" fill="#707070" fill-rule="evenodd"/>
+        <path id="Path-11" data-name="Path" d="M39,36v4H21V36a4,4,0,0,1,4-4H35A4,4,0,0,1,39,36Z" fill="#ff9801" fill-rule="evenodd"/>
+        <path id="Path-12" data-name="Path" d="M35,32H32a4,4,0,0,1,4,4v4h3V36A4,4,0,0,0,35,32Z" fill="#f57c00" fill-rule="evenodd"/>
+        <rect id="Rectangle-2" data-name="Rectangle" width="28" height="4" rx="1" transform="translate(16 40)" fill="sienna"/>
+        <path id="Path-13" data-name="Path" d="M43,40H40a1,1,0,0,1,1,1v2a1,1,0,0,1-1,1h3a1,1,0,0,0,1-1V41A1,1,0,0,0,43,40Z" fill="#783e22" fill-rule="evenodd"/>
+        <rect id="Rectangle-3" data-name="Rectangle" width="28" height="4" rx="1" transform="translate(16 55)" fill="sienna"/>
+        <path id="Path-14" data-name="Path" d="M43,55H40a1,1,0,0,1,1,1v2a1,1,0,0,1-1,1h3a1,1,0,0,0,1-1V56A1,1,0,0,0,43,55Z" fill="#783e22" fill-rule="evenodd"/>
+        <path id="Rectangle-4" data-name="Rectangle" d="M18,44h4V55H18Z" fill="sienna" fill-rule="evenodd"/>
+        <path id="Rectangle-5" data-name="Rectangle" d="M22,44h6V55H22Z" fill="#f57c00" fill-rule="evenodd"/>
+        <path id="Rectangle-6" data-name="Rectangle" d="M28,44h4V55H28Z" fill="sienna" fill-rule="evenodd"/>
+        <path id="Rectangle-7" data-name="Rectangle" d="M32,44h6V55H32Z" fill="#f57c00" fill-rule="evenodd"/>
+        <path id="Rectangle-8" data-name="Rectangle" d="M38,44h4V55H38Z" fill="sienna" fill-rule="evenodd"/>
+        <path id="Path-15" data-name="Path" d="M38,27h6" fill="#1d1d1b" fill-rule="evenodd"/>
+        <path id="Path-16" data-name="Path" d="M16,27h6" fill="#1d1d1b" fill-rule="evenodd"/>
+        <g id="Grupo_1182868" data-name="Grupo 1182868">
+          <path id="Shape" d="M2,44H15.278A1.993,1.993,0,0,0,17,45v9a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2H43a2,2,0,0,0,2-2V56a2,2,0,0,0-2-2V45a1.993,1.993,0,0,0,1.722-1H58a2,2,0,0,0,2-2V2a2,2,0,0,0-2-2H2A2,2,0,0,0,0,2V42A2,2,0,0,0,2,44Zm56-8.931A8.008,8.008,0,0,0,51.069,42H45V41a2,2,0,0,0-2-2H40V36a5.009,5.009,0,0,0-4-4.9V30a2.994,2.994,0,0,0-2.153-2.863l-.7-3.53c-.008-.038-.023-.072-.032-.108a10,10,0,1,0-6.219,0c-.01.037-.025.071-.033.109l-.7,3.529A2.994,2.994,0,0,0,24,30v1.1A5.009,5.009,0,0,0,20,36v3H17a2,2,0,0,0-2,2v1H8.931A8.008,8.008,0,0,0,2,35.069V8.931A8.008,8.008,0,0,0,8.931,2H51.069A8.008,8.008,0,0,0,58,8.931ZM30,22a8,8,0,1,1,8-8A8,8,0,0,1,30,22Zm0,2h1.181l.6,3H28.22l.6-3Zm-3,5h6a1,1,0,0,1,1,1v1H26V30A1,1,0,0,1,27,29Zm-2,4H35a3,3,0,0,1,3,3v3H22V36A3,3,0,0,1,25,33ZM2,37.09A6.008,6.008,0,0,1,6.91,42H2ZM19,45h2v9H19Zm8,0v9H23V45Zm10,0v9H33V45Zm-6,9H29V45h2Zm12,4H17V56H43Zm-2-4H39V45h2Zm1-11H17V41H43v2Zm11.09-1A6.008,6.008,0,0,1,58,37.09V42ZM58,6.91A6.008,6.008,0,0,1,53.09,2H58ZM6.91,2A6.008,6.008,0,0,1,2,6.91V2Z"/>
+          <path id="Path-17" data-name="Path" d="M30,13a1,1,0,1,1,.867-1.5,1,1,0,1,0,1.731-1A2.993,2.993,0,0,0,31,9.2V9a1,1,0,0,0-2,0v.184A2.993,2.993,0,0,0,30,15a1,1,0,1,1-.867,1.5,1,1,0,0,0-1.731,1A2.993,2.993,0,0,0,29,18.8V19a1,1,0,1,0,2,0v-.184A2.993,2.993,0,0,0,30,13Z" fill-rule="evenodd"/>
+          <path id="Path-18" data-name="Path" d="M5,11a1,1,0,0,0-1,1V32a1,1,0,0,0,2,0V12A1,1,0,0,0,5,11Z" fill-rule="evenodd"/>
+          <path id="Path-19" data-name="Path" d="M55,33a1,1,0,0,0,1-1V12a1,1,0,0,0-2,0V32A1,1,0,0,0,55,33Z" fill-rule="evenodd"/>
+          <path id="Path-20" data-name="Path" d="M44,30H41a1,1,0,0,0,0,2h3a1,1,0,0,0,0-2Z" fill-rule="evenodd"/>
+          <path id="Path-21" data-name="Path" d="M19,30H16a1,1,0,0,0,0,2h3a1,1,0,0,0,0-2Z" fill-rule="evenodd"/>
+          <path id="Path-22" data-name="Path" d="M44,26H38a1,1,0,0,0,0,2h6a1,1,0,0,0,0-2Z" fill-rule="evenodd"/>
+          <path id="Path-23" data-name="Path" d="M15,27a1,1,0,0,0,1,1h6a1,1,0,0,0,0-2H16A1,1,0,0,0,15,27Z" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

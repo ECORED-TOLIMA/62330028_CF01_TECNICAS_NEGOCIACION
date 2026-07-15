@@ -49,7 +49,7 @@ figcaption
     font-weight: normal !important
 
 .banner-interno__titulo__icono i
-    color: $color-acento-botones !important
+  color: $color-acento-botones !important
 
 .banner-principal .tarjeta
   background-position: left 50% !important
@@ -89,9 +89,15 @@ figcaption
   background-color: #F4F6EA
 .cajon.c3
   background-color: #DBE2BA
+.cajon.c4
+  background-color: #FFE2C3
 //- Modulo tarjetas
 .tarjeta--bg01
   background-image: url("../assets/curso/temas/bg/bg01.png")
+  background-size: cover
+  background-repeat: no-repeat
+.tarjeta--bg02
+  background-image: url("../assets/curso/temas/bg/bg02.png")
   background-size: cover
   background-repeat: no-repeat
 .tarjeta--c1
@@ -100,7 +106,49 @@ figcaption
   background-color: #B3C487
 .tarjeta--c3
   background-color: #FFE2C3
+.tarjeta--c4
+  background-color: #FFF5EA
+.tarjeta--c5
+  background-color: #D8EBFF
+.tarjeta--c6
+  background-color: #7EBDFF
+.tarjeta--c7
+  background-color: #E8EDDB
+.tarjeta--c8
+  background-color: #ECF0F1
 
+//- tarjeta segmentacion
+.tarjeta-segmentacion 
+  display: flex
+  align-items: stretch
+  background-color: #FFE2C3 
+  border-radius: 12px 
+  overflow: hidden 
+  width: 100%
+  &__wrap-img 
+    flex: 0 0 30% 
+    padding: 0px
+    margin: 0
+    display: flex
+    img 
+      width: 100%
+      height: 100%
+      object-fit: cover
+      object-position: center 
+  &__wrap-text 
+    flex: 1
+    padding: 30px 40px
+    line-height: 1.6
+    display: flex
+    align-items: center
+  @media (max-width: 991px)
+    flex-direction: column
+    &__wrap-img 
+      flex: 0 0 auto
+      width: 100%
+      height: 220px
+    &__wrap-text 
+      padding: 20px
 //- Modulo slyders
 .tarjeta--slyder
   height: 100%
@@ -118,18 +166,18 @@ figcaption
 .slyder__btn
   background-color: #7EBDFF
   color: #fff
-// .slyder-b__btn--sigt, .slyder-a__btn--atrs
-//   background-color: #7EBDFF
-//   color: #FFFF
-//   border: none
-//   opacity: 100
-//   background-image: url(../assets/curso/chevron-right2.png)
-// .slyder-a__btn--sigt, .slyder-a__btn--atrs 
-//   background-color: #7EBDFF
-//   color: #FFFF
-//   border: none
-//   opacity: 100
-//   background-image: url(../assets/curso/chevron-right2.png)
+.slyder-b__btn--sigt, .slyder-a__btn--atrs
+  background-color: #7EBDFF
+  color: #FFFF
+  border: none
+  opacity: 100
+  //-background-image: url(../assets/curso/chevron-right2.png)
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #7EBDFF
+  color: #FFFF
+  border: none
+  opacity: 100
+  //-background-image: url(../assets/curso/chevron-right2.png)
 @media (max-width: 576px)
   .slyder-a__btn--atrs, .slyder-a__btn--sigt 
     width: 25px
@@ -138,7 +186,7 @@ figcaption
   background-color: #7EBDFF
   border: none
 .slyder-a__bullets__item--active
-  background-color: #1E535A
+  background-color: #DBE2BA
   border: none
 
 // Modulo versión escritorio/movil para figuras
@@ -210,6 +258,24 @@ ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
 .linea-tiempo-d__item__number
   span
     color: #fff
+//- Modulo titulos
+.titulo-tercer-nivel 
+  display: flex
+  align-items: stretch /* Alinea la altura del ícono y el texto automáticamente */
+  width: fit-content
+  &__icon 
+    width: 60px        /* Controla el ancho del cuadro del ícono */
+    height: auto       /* Mantiene la proporción de la imagen */
+    object-fit: contain /* Evita que la imagen se deforme */
+    background-color: #FFE2C3 /* Color crema de fondo para el ícono */
+    padding: 10px 15px /* Espaciado interno alrededor del ícono */
+  &__text 
+    background-color: #FFA038 /* El color de fondo naranja para el texto */
+    font-weight: bold
+    display: flex
+    align-items: center /* Centra el texto verticalmente */
+    padding-left: 20px !important  /* Margen interno izquierdo del texto */
+    padding-right: 30px !important /* Margen interno derecho del texto */
 
 /**************************************************************/
 /***CUSTOM STYLES***/
