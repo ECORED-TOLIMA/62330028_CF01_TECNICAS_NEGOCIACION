@@ -64,7 +64,7 @@
           .col-10
             figure.desktop
               img(src='@/assets/curso/temas/t1/img08.svg', alt='Figura 1 que representa las etapas del conflicto organizacional, iniciando con la oposición potencial como situación latente que genera malestar, seguida del conocimiento y la personalización donde el conflicto se hace manifiesto, continuando con el comportamiento en el que se expresan las tensiones, y finalizando con los resultados, que pueden derivar en consecuencias constructivas o en conflicto violento.')
-        .col-12.mb.sm-4
+        .col-12.mb-4
           figure.movil
             img(src='@/assets/curso/temas/t1/img09.svg', alt='Figura 1 que representa las etapas del conflicto organizacional, iniciando con la oposición potencial como situación latente que genera malestar, seguida del conocimiento y la personalización donde el conflicto se hace manifiesto, continuando con el comportamiento en el que se expresan las tensiones, y finalizando con los resultados, que pueden derivar en consecuencias constructivas o en conflicto violento.')
       p.mb-5(data-aos="fade-down") En el proceso del conflicto se identifican distintos niveles, según las personas o grupos involucrados:
@@ -96,9 +96,9 @@
       p.mb-4(data-aos="fade-down") En cuanto al nivel de tensión, se identifican tres tipos:
       .row.justify-content-center.mb.lg-4
         .col.col-lg-10.col-12
-          ImagenInfografica.color-acento-botones
+          ImagenInfografica.color-acento-botones.desktop
             template(v-slot:imagen)
-              figure.desktop
+              figure
                 img(src='@/assets/curso/temas/t1/img13.svg', alt='Imagen decorativa')
             .tarjeta.color-acento-contenido.p-3(x="68%" y="23%" numero="+")
               p.mb-0 Conduce a la inactividad o evitación del conflicto, ya que no se percibe la necesidad de intervenir, lo que genera bajos resultados conjuntos. 
@@ -113,14 +113,14 @@
       .row.mb-0.justify-content-center
         .col.col-lg-10  
           .row
-            .col-md-6.col-lg.mb-5.mb-lg-0
+            .col-lg-6.col-md-12.col-lg.mb-5.mb-lg-0
               .tarjeta-avatar
                 img(src='@/assets/curso/temas/t1/img15.svg' alt='')
                 .tarjeta.color-primario
                   .p-4
                     h4.text-center Conflicto orientado a la tarea
                     p.mb-0 Surge cuando existen diferencias de opinión sobre una actividad o decisión específica, como la distribución de recursos.
-            .col-md-6.col-lg.mb-5.mb-lg-0
+            .col-lg-6.col-md-12.col-lg.mb-5.mb-lg-0
               .tarjeta-avatar
                 img(src='@/assets/curso/temas/t1/img16.svg' alt='')
                 .tarjeta.color-primario
@@ -170,7 +170,7 @@
           .col-10
             figure.desktop
               img(src='@/assets/curso/temas/t1/img20.svg', alt='Figura 2 que presenta los elementos clave de una negociación efectiva, destacando la importancia de separar a las personas de los problemas, centrar la atención en los intereses y no en las posiciones, generar soluciones creativas de beneficio mutuo y utilizar criterios objetivos para orientar la toma de decisiones.')
-        .col-12.mb.sm-4
+        .col-12.mb-4
           figure.movil
             img(src='@/assets/curso/temas/t1/img21.svg', alt='Figura 2 que presenta los elementos clave de una negociación efectiva, destacando la importancia de separar a las personas de los problemas, centrar la atención en los intereses y no en las posiciones, generar soluciones creativas de beneficio mutuo y utilizar criterios objetivos para orientar la toma de decisiones.')
       p.mb-4(data-aos="fade-down") Por su parte, las características principales y los beneficios de las técnicas de negociación son:
@@ -206,27 +206,27 @@
           p.mb-0(data-aos="fade-down") Existen tres estilos principales de negociación que se distinguen por el enfoque que toman los negociadores:
       TabsC.color-acento-botones.mb-5
         .py-3.py-md-4(titulo="La negociación inmediata")
-          .row
-            .col-md-7.mb-4.mb-md-0.order-lg-2.order-2
+          .row.justify-content-center
+            .col-lg-7.col-12.mb-4.mb-md-0.order-lg-2.order-2
               h4 La negociación inmediata.
               p Este tipo de negociación se centra en llegar a un acuerdo sin prestar demasiada atención a las relaciones personales. Es común en situaciones como transacciones de compra y venta, donde lo importante es cerrar el trato lo más rápido posible sin la necesidad de establecer vínculos duraderos.
-            .col-md-5.order-lg-1.order-1
+            .col-lg-5.col-8.order-lg-1.order-1.mb-4
               figure
                 img(src='@/assets/curso/temas/t1/img23.jpg', alt='Imagen decorativa')
         .py-3.py-md-4(titulo="La negociación progresiva")
-          .row
-            .col-md-7.mb-4.mb-md-0.order-lg-2.order-2
+          .row.justify-content-center
+            .col-lg-7.col-12.mb-4.mb-md-0.order-lg-2.order-2
               h4 Archivo de gestión o de oficina
               p En este estilo, el enfoque está en desarrollar una relación personal sólida antes de entrar en los aspectos técnicos o económicos de la negociación. Aquí, se prioriza crear un ambiente de confianza y cercanía, lo cual facilitará las negociaciones a futuro. Es útil en contextos donde se valoran las relaciones a largo plazo, ya que genera confianza antes de abordar los aspectos formales del negocio.
-            .col-md-5.order-lg-1.order-1
+            .col-lg-5.col-8.order-lg-1.order-1.mb-4
               figure
                 img(src='@/assets/curso/temas/t1/img24.jpg', alt='Imagen decorativa')
         .py-3.py-md-4(titulo="La negociación situacional")
-          .row
-            .col-md-7.mb-4.mb-md-0.order-lg-2.order-2
+          .row.justify-content-center
+            .col-lg-7.col-12.mb-4.mb-md-0.order-lg-2.order-2
               h4 La negociación situacional
               p Es el estilo más flexible y ágil de negociación, ya que se adapta a las circunstancias específicas de cada situación. Se basa en un análisis detallado de las condiciones, habilidades y debilidades de las partes involucradas. Este estilo permite a los negociadores alternar entre la negociación inmediata y la progresiva según sea necesario, lo que lo convierte en una técnica efectiva para diversas situaciones.
-            .col-md-5.order-lg-1.order-1
+            .col-lg-5.col-8.order-lg-1.order-1.mb-4
               figure
                 img(src='@/assets/curso/temas/t1/img25.jpg', alt='Imagen decorativa')
       .row.justify-content-center.mb-0
@@ -239,11 +239,11 @@
       #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 1.5 Fases de la negociación
       p.mb-4(data-aos="fade-down") La negociación debe entenderse como un proceso continuo y planificado, en el que las partes avanzan progresivamente hacia la construcción de un acuerdo. No se trata únicamente de exponer posiciones, sino de gestionar información, intereses, emociones y relaciones a lo largo de distintas etapas que requieren habilidades y decisiones específicas. El desarrollo ordenado de estas fases permite reducir la incertidumbre y aumentar la efectividad del proceso.
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-0
         .col.col-lg-4.col-8.col-md-6.order-lg-2.order-2.mb-lg-0.mb-3
           figure
             img(src='@/assets/curso/temas/t1/img26.svg', alt='Imagen decorativa')
-        .col.col-lg-8.col-12.order-lg-1.order-1
+        .col.col-lg-8.col-12.order-lg-1.order-1.mb-4
           .cajon.c2.color-secundario.p-4
             p.mb-2(data-aos="fade-down") Cada fase de la negociación cumple un propósito particular y aporta elementos clave para el avance hacia el acuerdo. Una preparación adecuada facilita una discusión más clara; una comunicación efectiva permite identificar oportunidades de consenso; y una gestión flexible de propuestas favorece soluciones equilibradas. Ignorar o acelerar alguna de estas etapas puede generar acuerdos frágiles o conflictos posteriores.
       p.mb-4(data-aos="fade-down") Conocer las fases de la negociación ayuda a las partes a ubicarse dentro del proceso, evaluar el progreso alcanzado y ajustar sus estrategias según las respuestas del interlocutor y el contexto. De esta manera, la negociación se convierte en una herramienta estratégica para la toma de decisiones y la resolución de conflictos de forma estructurada y consciente.
@@ -321,7 +321,7 @@
           .col-10
             figure.desktop
               img(src='@/assets/curso/temas/t1/img33.svg', alt='Figura 3 que describe los tipos de negociación según la relación entre resultados y relacionamiento, incluyendo la cesión o conformismo, caracterizada por un enfoque perder–ganar orientado a favorecer a la otra parte; la colaboración, basada en el enfoque ganar–ganar y la cooperación creativa; la transacción o compromiso, que plantea acuerdos intermedios; el estilo competitivo, centrado en ganar–perder; y la evasión, donde se evita el conflicto bajo un enfoque perder–perder.')
-        .col-12.mb.sm-4
+        .col-12.mb-4
           figure.movil
             img(src='@/assets/curso/temas/t1/img34.svg', alt='Figura 3 que describe los tipos de negociación según la relación entre resultados y relacionamiento, incluyendo la cesión o conformismo, caracterizada por un enfoque perder–ganar orientado a favorecer a la otra parte; la colaboración, basada en el enfoque ganar–ganar y la cooperación creativa; la transacción o compromiso, que plantea acuerdos intermedios; el estilo competitivo, centrado en ganar–perder; y la evasión, donde se evita el conflicto bajo un enfoque perder–perder.')
       separador
@@ -368,7 +368,7 @@
           .col-10
             figure.desktop
               img(src='@/assets/curso/temas/t1/img37.svg', alt='PTE texto alt')
-        .col-12.mb.sm-4
+        .col-12.mb-4
           figure.movil
             img(src='@/assets/curso/temas/t1/img38.svg', alt='PTE texto alt')
       p.mb-4(data-aos="fade-down") A modo de cierre, es importante entender que negociar bien no es ganar una discusión, sino lograr acuerdos que funcionen para todas las partes. Las técnicas de negociación se convierten en herramientas clave para conducir conversaciones, manejar diferencias y transformar desacuerdos en oportunidades de entendimiento.
@@ -376,7 +376,7 @@
         .col.col-lg-3.col-8.col-md-6.order-lg-2.order-2.mb-lg-0.mb-3
           figure
             img(src='@/assets/curso/temas/t1/img38.png', alt='Imagen decorativa')
-        .col.col-lg-9.col-12.order-lg-1.order-1
+        .col.col-lg-9.col-12.order-lg-1.order-1.mb-4
           .cajon.c2.color-secundario.p-4.mb-4
             p.mb-0(data-aos="fade-down") En toda negociación existen intereses compartidos y otros que entran en tensión; reconocerlos permite pasar del enfrentamiento al diálogo constructivo. Cuando se escucha activamente, se argumenta con claridad y se toman decisiones conscientes, es posible construir soluciones equilibradas y sostenibles.
           p.mb-0(data-aos="fade-down") Con esta idea en mente, a continuación, se explora un ejemplo práctico de negociación, donde por medio de un pódcast se conocerá cómo estas técnicas se aplican en una situación real y cómo influyen en el resultado final del acuerdo:

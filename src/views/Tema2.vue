@@ -21,27 +21,27 @@
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.1 Definición de mercadeo
-    .row.justify-content-center.mb-4
-        .col.col-lg-3.col-8.col-md-6.order-lg-2.order-2.mb-lg-0.mb-3
-          figure
-            img(src='@/assets/curso/temas/t2/img03.png', alt='Imagen decorativa')
-        .col.col-lg-9.col-12.order-lg-1.order-1
-          p.mb-4(data-aos="fade-down") Según la RAE (2024), mercadeo es el conjunto de operaciones por las que ha de pasar una mercancía desde el productor al consumidor. Presentado de forma más específica, es el proceso social y administrativo mediante el cual las organizaciones identifican, se anticipan para satisfacer las necesidades y deseos de los consumidores a través de la creación, promoción y entrega de valor, con el objetivo de generar intercambios rentables y fidelizar clientes.
-          p.mb-4(data-aos="fade-down") Dado de manera técnica, es el espacio donde oferentes y demandantes interactúan para intercambiar bienes o servicios.
-          .tarjeta.tarjeta--c4.p-4
-            p.mb-0(data-aos="fade-down") Tiene como objetivos identificar las necesidades del mercado para comprender qué busca el consumidor, atraer y fidelizar clientes, procurando tanto la captación de nuevos compradores como la conservación de los actuales. Asimismo, busca generar valor mediante la creación de productos y servicios que aporten beneficios tangibles e intangibles, y posicionar la marca de forma que esta ocupe un lugar relevante en la mente del consumidor.
+    .row.justify-content-center
+      .col.col-lg-3.col-8.col-md-6.order-lg-2.order-2.mb-lg-0.mb-3
+        figure
+          img(src='@/assets/curso/temas/t2/img03.png', alt='Imagen decorativa')
+      .col.col-lg-9.col-12.order-lg-1.order-1.mb-4
+        p.mb-4(data-aos="fade-down") Según la RAE (2024), mercadeo es el conjunto de operaciones por las que ha de pasar una mercancía desde el productor al consumidor. Presentado de forma más específica, es el proceso social y administrativo mediante el cual las organizaciones identifican, se anticipan para satisfacer las necesidades y deseos de los consumidores a través de la creación, promoción y entrega de valor, con el objetivo de generar intercambios rentables y fidelizar clientes.
+        p.mb-4(data-aos="fade-down") Dado de manera técnica, es el espacio donde oferentes y demandantes interactúan para intercambiar bienes o servicios.
+        .tarjeta.tarjeta--c4.p-4
+          p.mb-0(data-aos="fade-down") Tiene como objetivos identificar las necesidades del mercado para comprender qué busca el consumidor, atraer y fidelizar clientes, procurando tanto la captación de nuevos compradores como la conservación de los actuales. Asimismo, busca generar valor mediante la creación de productos y servicios que aporten beneficios tangibles e intangibles, y posicionar la marca de forma que esta ocupe un lugar relevante en la mente del consumidor.
     p.mb-4(data-aos="fade-down") A pesar de la modernización tecnológica y de los cambios constantes en los entornos comerciales, el mercadeo conserva dos aspectos clave que resultan determinantes para su desempeño exitoso:
     .row.mb-0.justify-content-center
       .col.col-lg-10.mb-4
         .row
-          .col-md-6.col-lg.mb-5.mb-lg-0
+          .col-lg-6.col-12.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/temas/t2/img04.svg' alt='')
               .tarjeta.color-primario
                 .p-4
                   h4.text-center Enfoque central
                   p.mb-0 Se centra en entender al consumidor para ofrecer soluciones (productos o servicios) que satisfagan sus necesidades de manera que supere sus expectativas y la oferta de la competencia.
-          .col-md-6.col-lg.mb-5.mb-lg-0
+          .col-lg-6.col-12.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/temas/t2/img05.svg' alt='')
               .tarjeta.color-primario
@@ -115,7 +115,7 @@
         .col-10
           figure.desktop
             img(src='@/assets/curso/temas/t2/img10.svg', alt='Figura 5 que explica la relación entre oferentes y demandantes, mostrando el flujo de bienes o servicios desde los oferentes hacia los demandantes y el retorno del dinero desde los demandantes hacia los oferentes como base del intercambio en el mercado.')
-      .col-12.mb.sm-4
+      .col-12.mb-4
         figure.movil
           img(src='@/assets/curso/temas/t2/img11.svg', alt='Figura 5 que explica la relación entre oferentes y demandantes, mostrando el flujo de bienes o servicios desde los oferentes hacia los demandantes y el retorno del dinero desde los demandantes hacia los oferentes como base del intercambio en el mercado.')
     .row.justify-content-center.mb-4
@@ -184,7 +184,7 @@
         .col-10
           figure.desktop
             img(src='@/assets/curso/temas/t2/img15.svg', alt='Figura 6 que presenta de manera gráfica la clasificación de los tipos de mercado según el producto, incluyendo el mercado de consumo, el mercado de inversión, el mercado industrial, el mercado de servicios y los mercados financieros.')
-      .col-12.mb.sm-4
+      .col-12.mb-4
         figure.movil
           img(src='@/assets/curso/temas/t2/img16.svg', alt='Figura 6 que presenta de manera gráfica la clasificación de los tipos de mercado según el producto, incluyendo el mercado de consumo, el mercado de inversión, el mercado industrial, el mercado de servicios y los mercados financieros.')
     .titulo-tercer-nivel.mb-4(data-aos="fade-right")
@@ -234,7 +234,7 @@
         .col-10
           figure.desktop
             img(src='@/assets/curso/temas/t2/img22.svg', alt='Figura 7 que presenta la clasificación de los tipos de mercado de acuerdo con el comprador, identificando al distribuidor, el comprador industrial, el comprador gubernamental, el consumidor final y el mercado de trabajo como los principales actores que participan en el intercambio de bienes, servicios y recursos.')
-      .col-12.mb.sm-4
+      .col-12.mb-4
         figure.movil
           img(src='@/assets/curso/temas/t2/img23.svg', alt='Figura 7 que presenta la clasificación de los tipos de mercado de acuerdo con el comprador, identificando al distribuidor, el comprador industrial, el comprador gubernamental, el consumidor final y el mercado de trabajo como los principales actores que participan en el intercambio de bienes, servicios y recursos.')
     .titulo-tercer-nivel.mb-4(data-aos="fade-right")
@@ -280,28 +280,28 @@
     .row.mb-0.justify-content-center.mb-5
       .col.col-12  
         .row
-          .col-md-6.col-lg.mb-5.mb-lg-0
+          .col-lg-6.col-12.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/temas/t2/img28.svg' alt='')
               .tarjeta.color-primario
                 .p-4
                   h4.text-center Mercado local
                   p.mb-0 Es el que atiende un área reducida del mercado como una provincia o una ciudad.
-          .col-md-6.col-lg.mb-5.mb-lg-0
+          .col-lg-6.col-12.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/temas/t2/img29.svg' alt='')
               .tarjeta.color-primario
                 .p-4
                   h4.text-center Mercado nacional
                   p.mb-0 Se caracteriza porque cubre todo el territorio de un país, incluyendo la totalidad de sus departamentos, regiones y municipios.
-          .col-md-6.col-lg.mb-5.mb-lg-0
+          .col-lg-6.col-12.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/temas/t2/img30.svg' alt='')
               .tarjeta.color-primario
                 .p-4
                   h4.text-center Mercado internacional
                   p.mb-0 Está formado por un conjunto de compradores que pueden estar ubicados en distintos países, estos generalmente son mercados atendidos por empresas multinacionales o transnacionales.
-          .col-md-6.col-lg.mb-5.mb-lg-0
+          .col-lg-6.col-12.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/temas/t2/img31.svg' alt='')
               .tarjeta.color-primario
@@ -395,7 +395,7 @@
         .col-10
           figure.desktop
             img(src='@/assets/curso/temas/t2/img38.svg', alt='Figura 8 que ilustra los cuatro tipos de segmentación de mercados: segmentación geográfica, segmentación demográfica, segmentación psicográfica y segmentación conductual, presentados de manera comparativa para mostrar cómo las organizaciones clasifican a los consumidores según su ubicación, características personales, estilos de vida y comportamientos de compra.')
-      .col-12.mb.sm-4
+      .col-12.mb-4
         figure.movil
           img(src='@/assets/curso/temas/t2/img39.svg', alt='Figura 8 que ilustra los cuatro tipos de segmentación de mercados: segmentación geográfica, segmentación demográfica, segmentación psicográfica y segmentación conductual, presentados de manera comparativa para mostrar cómo las organizaciones clasifican a los consumidores según su ubicación, características personales, estilos de vida y comportamientos de compra.')
     .titulo-tercer-nivel.mb-4(data-aos="fade-right")
@@ -428,12 +428,12 @@
       img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/t1.svg')
       h4.titulo-tercer-nivel__text.mb-0.px-0.py-2 Ventajas de la segmentación de mercados
     p.mb-4(data-aos="fade-down") La segmentación de mercados permite a la organización enfocar de manera más precisa sus esfuerzos comerciales y de comunicación, al diseñar mensajes de marketing dirigidos específicamente a su público objetivo. Estos mensajes resultan más efectivos, ya que responden de forma directa a las necesidades, expectativas y deseos de los consumidores. De este modo, se facilita la definición de estrategias de mercado coherentes con las características de cada segmento, concentrando los recursos en acciones de publicidad claras, persuasivas y orientadas al cliente, lo que incrementa la probabilidad de atraer y captar clientes potenciales, al tiempo que fortalece el posicionamiento y el valor diferenciador de la marca.
-    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
-        .bloque-texto-g__img(
-          :style="{'background-image': `url(${require_src('@/assets/curso/temas/t2/img41.jpg')})`}"
-        )
-        .bloque-texto-g__texto.p-4
-          p.mb-0(data-aos="fade-down") Adicionalmente, la segmentación contribuye a la identificación de nichos de mercado con alto potencial, lo que permite enfocar los esfuerzos comerciales de manera estratégica y optimizar el uso de recursos. Al comprender mejor a cada grupo de consumidores, la organización puede desarrollar ofertas más ajustadas, mejorar la experiencia del cliente y establecer vínculos más sólidos entre la marca y el consumidor. Esta relación favorece la confianza, la satisfacción y la lealtad, promoviendo relaciones duraderas que impactan positivamente en la sostenibilidad y competitividad de la organización a largo plazo.
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require_src('@/assets/curso/temas/t2/img41.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0(data-aos="fade-down") Adicionalmente, la segmentación contribuye a la identificación de nichos de mercado con alto potencial, lo que permite enfocar los esfuerzos comerciales de manera estratégica y optimizar el uso de recursos. Al comprender mejor a cada grupo de consumidores, la organización puede desarrollar ofertas más ajustadas, mejorar la experiencia del cliente y establecer vínculos más sólidos entre la marca y el consumidor. Esta relación favorece la confianza, la satisfacción y la lealtad, promoviendo relaciones duraderas que impactan positivamente en la sostenibilidad y competitividad de la organización a largo plazo.
     separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.4 El cliente actual
@@ -499,9 +499,9 @@
     p.mb-4(data-aos="fade-down") Los clientes pueden clasificarse en diferentes tipos según sus intereses, comportamiento de compra, nivel de participación, expectativas y grado de relación con la empresa. Esta diversidad obliga a las organizaciones a comprender mejor a su público para diseñar estrategias de mercadeo, comunicación y servicio más efectivas. Reconocer los distintos tipos de clientes permite adaptar la oferta de productos y servicios, optimizar la atención y fortalecer la fidelización. A continuación, se presenta la tipología de clientes más representativa:
     .row.justify-content-center.mb.lg-4
       .col.col-lg-10.col-12
-        ImagenInfografica.color-acento-botones
+        ImagenInfografica.color-acento-botones.desktop
           template(v-slot:imagen)
-            figure.desktop
+            figure
               img(src='@/assets/curso/temas/t2/img45.svg', alt='Imagen decorativa')
           .tarjeta.color-acento-contenido.p-3(x="30.3%" y="78%" numero="+")
             p.mb-0 Compradores primerizos cuya experiencia inicial es crucial.
@@ -550,7 +550,7 @@
         .col-10
           figure.desktop
             img(src='@/assets/curso/temas/t2/img50.svg', alt='Figura 9 que ilustra el proceso de ventas y los factores que influyen en sus etapas, mostrando que los pasos para concretar una venta varían según el tipo de producto, el segmento de mercado y los procedimientos internos de la empresa.')
-      .col-12.mb.sm-4
+      .col-12.mb-4
         figure.movil
           img(src='@/assets/curso/temas/t2/img51.svg', alt='Figura 9 que ilustra el proceso de ventas y los factores que influyen en sus etapas, mostrando que los pasos para concretar una venta varían según el tipo de producto, el segmento de mercado y los procedimientos internos de la empresa.')
     .titulo-tercer-nivel.mb-4(data-aos="fade-right")
