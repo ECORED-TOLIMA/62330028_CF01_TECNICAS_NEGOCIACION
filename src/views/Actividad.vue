@@ -22,7 +22,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> verificar el grado de apropiación de los conceptos clave de las técnicas de negociación aplicadas en ventas.',
+        '<b> Objetivo:</b> verificar el grado de apropiación de los conceptos clave de las Técnicas para la negociación aplicadas en ventas.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',

@@ -438,7 +438,7 @@
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.4 El cliente actual
     p.mb-4(data-aos="fade-down") El cliente del mercado actual es un investigador exhaustivo en línea pre compra, valora la transparencia y se identifica mediante la creación de un buyer persona, analizando datos demográficos y psicográficos.
-    p.mb-4(data-aos="fade-down") Es un consumidor hiperconectado, informado y exigente que busca experiencias personalizadas, inmediatez y sostenibilidad, actuando a menudo como prosumidor.
+    p.mb-4(data-aos="fade-down") Es un consumidor hiperconectado, informado y exigente que busca experiencias personalizadas, inmediatez y sostenibilidad, actuando a menudo como <b>prosumidor</b>.
     .titulo-tercer-nivel.mb-4(data-aos="fade-right")
       img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/t1.svg')
       h4.titulo-tercer-nivel__text.mb-0.px-0.py-2 Características del cliente actual
@@ -477,9 +477,9 @@
           .row(numero="3" titulo="Mayor independencia en la toma de decisiones")
             .col-12.mb-4.mb-md-0
               p.mb-0 El cliente moderno es más autónomo e independiente. Para resolver sus necesidades y tomar decisiones informadas, recurre con frecuencia a búsquedas en internet, tutoriales, foros y contenidos digitales. Esto exige que las marcas desarrollen información clara, útil y de valor que facilite el proceso de decisión y fortalezca la relación con el consumidor.
-          .row(numero="4" titulo="Influencia de los creadores de contenido e influencers")
+          .row(numero="4" titulo="Influencia de los creadores de contenido e <em>influencers</em>")
             .col-12.mb-4.mb-md-0
-              p.mb-0 En la era digital, los influencers y creadores de contenido cumplen un papel relevante en el proceso de compra. Sus recomendaciones y experiencias pueden generar mayor confianza que la publicidad tradicional, influyendo de manera significativa en la percepción y preferencia de las marcas.
+              p.mb-0 En la era digital, los <em>influencers</em> y creadores de contenido cumplen un papel relevante en el proceso de compra. Sus recomendaciones y experiencias pueden generar mayor confianza que la publicidad tradicional, influyendo de manera significativa en la percepción y preferencia de las marcas.
           .row(numero="5" titulo="Búsqueda de facilidad y rapidez")
             .col-12.mb-4.mb-md-0
               p.mb-0 El consumidor actual espera poder comprar desde cualquier lugar y en cualquier momento, mediante procesos simples, ágiles y sin barreras innecesarias. Por esta razón, los canales digitales y el comercio electrónico han adquirido un crecimiento acelerado, convirtiéndose en un elemento clave de la experiencia de compra.
@@ -528,6 +528,7 @@
     separador
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.5 Proceso de venta
+    p.mb-4(data-aos="fade-down") El proceso de venta es el conjunto de etapas estructuradas que sigue un vendedor dentro de una organización para concretar una transacción comercial de manera efectiva. Este proceso implica el cumplimiento de una serie de pasos generales que pueden variar según el tipo de producto o servicio que se comercializa, el segmento de mercado al que se dirige y los procedimientos internos establecidos por cada empresa.
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure

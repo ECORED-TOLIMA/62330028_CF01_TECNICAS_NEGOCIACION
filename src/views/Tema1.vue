@@ -68,6 +68,35 @@
           figure.movil
             img(src='@/assets/curso/temas/t1/img09.svg', alt='Figura 1 que representa las etapas del conflicto organizacional, iniciando con la oposición potencial como situación latente que genera malestar, seguida del conocimiento y la personalización donde el conflicto se hace manifiesto, continuando con el comportamiento en el que se expresan las tensiones, y finalizando con los resultados, que pueden derivar en consecuencias constructivas o en conflicto violento.')
       p.mb-5(data-aos="fade-down") En el proceso del conflicto se identifican distintos niveles, según las personas o grupos involucrados:
+      .tarjeta--container.row.mb-5
+        .col-md.tarjeta.tarjeta--c1.p-5
+          .row.justify-content-center.mb-4
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/t1/img40.svg', alt='Imagen decorativa')  
+          h2.text-center Intrapersonal
+          p Ocurre dentro de la misma persona, cuando existen tensiones internas, dudas, valores contrapuestos o decisiones difíciles.
+        .col-md.tarjeta.tarjeta--c7.p-5
+          .row.justify-content-center.mb-4
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/t1/img41.svg', alt='Imagen decorativa')
+          h2.text-center Interpersonal
+          p Se presenta entre dos o más personas, generalmente por diferencias de intereses, percepciones, roles o estilos de comunicación.
+        .col-md.tarjeta.tarjeta--c3.p-5
+          .row.justify-content-center.mb-4
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/t1/img42.svg', alt='Imagen decorativa')
+          h2.text-center Intragrupal
+          p Surge dentro de un mismo equipo o grupo de trabajo, asociado a metas, responsabilidades, liderazgo o distribución de tareas.
+        .col-md.tarjeta.tarjeta--c8.p-5
+          .row.justify-content-center.mb-4
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/t1/img43.svg', alt='Imagen decorativa')  
+          h2.text-center Intergrupal
+          p Se manifiesta entre distintos grupos, áreas o departamentos, normalmente por recursos, objetivos organizacionales o falta de coordinación.
       .row.justify-content-center.mb-4
         .col.col-lg-10.col-12
           .tarjeta.position-relative.p-4.pt-5(style="background-color: #FFE2C3;")
@@ -367,10 +396,10 @@
         .row.justify-content-center
           .col-10
             figure.desktop
-              img(src='@/assets/curso/temas/t1/img37.svg', alt='PTE texto alt')
+              img(src='@/assets/curso/temas/t1/img37.svg', alt='Figura 4 que relaciona cinco enfoques que representan las técnicas de negociación: negociación acomodativa (perder–ganar), negociación competitiva (ganar–perder), negociación colaborativa (ganar–ganar), negociación por compromiso (ganar a medias), y negociación evitativa (perder–perder). Cada técnica se identifica mediante un ícono representativo y acciones entre dos personas facilitar su comprensión.')
         .col-12.mb-4
           figure.movil
-            img(src='@/assets/curso/temas/t1/img38.svg', alt='PTE texto alt')
+            img(src='@/assets/curso/temas/t1/img38.svg', alt='Figura 4 que relaciona cinco enfoques que representan las técnicas de negociación: negociación acomodativa (perder–ganar), negociación competitiva (ganar–perder), negociación colaborativa (ganar–ganar), negociación por compromiso (ganar a medias), y negociación evitativa (perder–perder). Cada técnica se identifica mediante un ícono representativo y acciones entre dos personas facilitar su comprensión.')
       p.mb-4(data-aos="fade-down") A modo de cierre, es importante entender que negociar bien no es ganar una discusión, sino lograr acuerdos que funcionen para todas las partes. Las técnicas de negociación se convierten en herramientas clave para conducir conversaciones, manejar diferencias y transformar desacuerdos en oportunidades de entendimiento.
       .row.justify-content-center.mb-4
         .col.col-lg-3.col-8.col-md-6.order-lg-2.order-2.mb-lg-0.mb-3
